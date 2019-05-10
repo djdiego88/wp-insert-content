@@ -290,7 +290,7 @@ function get_item_index( $nodelist, $args ) {
 		if ( 1 < $count ) {
 			// More than one paragraph found.
 			// Get middle position to insert the HTML.
-			$insert_index = $nodelist[ floor( $count / 3 ) - 2 ];
+			$insert_index = $nodelist[ floor( $count / 3 ) - 1 ];
 		} else {
 			// One paragraph.
 			$insert_index = $last;
